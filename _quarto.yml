@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "dynamics"
+  author: "Jane Doe"
+  date: "7/31/2022"
+  chapters:
+    - index.qmd
+    - 0000intro.qmd
+    - 0100timeseries.qmd
+    - 0200something.qmd
+    - 0300something.qmd
+    - 0400something.qmd
+    - 0500something.qmd
+    - 0600something.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+jupyter: python
+
+
